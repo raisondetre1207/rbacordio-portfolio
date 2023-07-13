@@ -1,3 +1,15 @@
-h1 {
-    color: red;
+html {
+    background-color: black;
+    color: white;
+    font-size: 16;
+    margin: 0;
+}
+
+.navbar {
+    border: 1px solid white;
+    display: flex;
+    gap: 1em;
+    font-size: 1.25rem;
+    list-style-type: none;
+    padding: 1em;
 }
