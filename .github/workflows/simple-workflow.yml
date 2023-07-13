@@ -18,8 +18,8 @@ jobs:
           run: echo "Hello, World!"
         - name: Listing all files
           run: ls -al
-        - name: Write a text into a new txt file
-          run: echo "This project will contain Raphael Jess Bacordio's details" >> sample.txt
-        - name: Delete the txt file
-          run: rm sample.txt
+        - name: Install npm and build webpack 
+          run: |
+            npm install
+            npm run build
         
